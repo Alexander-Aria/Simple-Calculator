@@ -8,12 +8,14 @@ A simple terminal-based calculator written in C++.
 - Multiplication/Division
 - Terminal Interface
 
+## Requirements
+
+- Linux
+- g++
+- Make
+
 ## Build
 
-```bash
-g++ src/main.cpp -o build/app
-```
-or
 ```bash
 make
 ```
@@ -21,5 +23,9 @@ make
 ## Run
 
 ```bash
-./build/app
+make run
 ```
+
+## Notes
+
+For manual build and run, instructions are in `Makefile`. 
